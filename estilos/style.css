@@ -20,8 +20,8 @@ body {
 }
 
 main {
-    height: 100vh;
     position: relative;
+    height: 100vh;
 }
 
 section#telefone {
@@ -32,4 +32,12 @@ section#telefone {
     height: 860PX;
     width: 423px;
     background: url('../imagens/frame_iphone.png') no-repeat;
+}
+
+iframe#id_tela {
+    position: relative;
+    top: 102px;
+    left: 27px;
+    width: 368px;
+    height: 650px;
 }
