@@ -31,15 +31,15 @@ section#id_telefone {
     transform: translate(-50%, -50%);
     height: 860PX;
     width: 423px;
-    background: url('../imagens/frame_iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 iframe#id_tela {
     position: relative;
-    top: 102px;
-    left: 27px;
-    width: 368px;
-    height: 650px;
+    top: 80px;
+    left: 22px;
+    width: 263px;
+    height: 468px;
 }
 
 section#id_redes-sociais {
@@ -50,13 +50,12 @@ section#id_redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    /* box-shadow: 1px 3px rgb(210, 210, 210); */
     box-sizing: border-box;
 }
 
 section#id_redes-sociais img:hover {
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    box-shadow: 2px 2px 3px whitesmoke;
     transition: transform .3s, border .3s;
 }
