@@ -24,7 +24,7 @@ main {
     height: 100vh;
 }
 
-section#telefone {
+section#id_telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,4 +40,23 @@ iframe#id_tela {
     left: 27px;
     width: 368px;
     height: 650px;
+}
+
+section#id_redes-sociais {
+    text-align: right;
+}
+
+section#id_redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    /* box-shadow: 1px 3px rgb(210, 210, 210); */
+    box-sizing: border-box;
+}
+
+section#id_redes-sociais img:hover {
+    border: 2px solid black;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border .3s;
 }
