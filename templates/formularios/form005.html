@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário5</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form method="GET" autocomplete="on">
+      <fieldset>
+        <legend>: Esportes Favoritos - Exemplo 1:</legend>
+        <p>
+          <label for="">Forma 1</label><br />
+          <input type="checkbox" name="fut" id="id_fut" />Futebol<input type="checkbox" name="bas" id="id_bas" />Basquete<input type="checkbox" name="nat" id="id_nat" />Natação<input type="checkbox" name="ten" id="id_ten" />Tênis
+        </p>
+        <p>
+          <label for="">Forma 2</label><br />
+          <input type="checkbox" name="fut" id="id_fut" />Futebol<br /><input type="checkbox" name="bas" id="id_bas" />Basquete<br /><input type="checkbox" name="nat" id="id_nat" />Natação<br /><input type="checkbox" name="ten" id="id_ten" />Tênis
+        </p>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>: Esportes Favoritos - Exemplo 2:</legend>
+        <p>
+          <label>Forma 1</label><br />
+          <input type="checkbox" name="fut" id="id_fut2" checked /><label for="id_fut2">Futebol</label>
+          <input type="checkbox" name="bas" id="id_bas2" checked /><label for="id_bas2">Basquete</label>
+          <input type="checkbox" name="nat" id="id_nat2" /><label for="id_nat2">Natação</label>
+          <input type="checkbox" name="ten" id="id_ten2" /><label for="id_ten2">Tênis</label>
+        </p>
+        <p>
+          <label>Forma 2</label><br />
+          <input type="checkbox" name="fut" id="id_fut3" /><label for="id_fut3">Futebol</label><br />
+          <input type="checkbox" name="bas" id="id_bas3" /><label for="id_bas3">Basquete</label><br />
+          <input type="checkbox" name="nat" id="id_nat3" checked /><label for="id_nat3">Natação</label><br />
+          <input type="checkbox" name="ten" id="id_ten3" checked /><label for="id_ten3">Tênis</label>
+        </p>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>: Sexo :</legend>
+        <input type="radio" name="sexo" id="id_sexom" />
+        <label for="id_sexom">Masculino</label>
+        <input type="radio" name="sexo" id="id_sexof" checked />
+        <label for="id_sexof">Feminino</label>
+      </fieldset>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>

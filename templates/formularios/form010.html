@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário10</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form method="GET" autocomplete="on">
+      <p>
+        <label for="id_ano">Ano de nascimento</label>
+        <input type="number" name="ano" id="id_ano" min="1900" max="2022" oninput="calcIdade()" />
+      </p>
+
+      <p>
+        <label for="id_idade">Sua idade é:</label>
+        <output id="id_idade">0</output>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+
+    <script>
+      function calcIdade() {
+        let atual = new Date().getFullYear()
+        console.log(atual)
+        id_idade.innerHTML = Number(atual) - Number(id_ano.value)
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário8</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form method="GET" autocomplete="on">
+      <p>
+        <label for="id_n1">Número 1</label><br />
+        <input type="number" name="n1" id="id_n1" required oninput="id_soma.innerHTML = Number(id_n1.value) + Number(id_n2.value)" />
+      </p>
+      <p>
+        <label for="id_n2">Número 2</label><br />
+        <input type="number" name="n2" id="id_n2" required oninput="id_soma.innerHTML = Number(id_n1.value) + Number(id_n2.value)" />
+      </p>
+      <p>
+        <label for="id_soma">Número 1</label><br />
+        <output name="soma" id="id_soma">0</output>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>

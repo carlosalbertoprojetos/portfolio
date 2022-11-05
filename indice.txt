@@ -1,0 +1,17 @@
+1 - Form001 - input, label, form
+
+2 - Form002 - form, label, input(características, submit, reset)
+
+3 - Form003 - form(autocomplete), label, input(autocomplete, step, max, min, submit, reset)
+
+4 - Form004 - form, formset, legend, label, input(características, pattern, submit, reset)
+
+5 - Form005 - form, formset, legend, label, input(checkbox, radio, checked, submit, reset)
+
+6 - Form006 - form, label, input(seletor de cores, range, file(POST), submit, reset)
+
+7 - Form007 - form, label, input(submit, reset), datalist, option, textarea.
+
+8 - Form008 - form, label, input, output, submit, reset) calculo js
+
+9 - Form009 - range, range.value, output. calculo js 

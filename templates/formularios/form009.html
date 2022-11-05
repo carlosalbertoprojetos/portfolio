@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário9</title>
+  </head>
+  <body>
+    <h1>Exemplo de Formulário</h1>
+    <form method="GET" autocomplete="on">
+      <p>
+        <label for="id_range">Range</label>
+        <input type="range" name="range" id="id_range" min="0" max="10" value="5" oninput="id_val.innerHTML = Number(id_range.value)" />
+        <output id="id_val">5</output>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
