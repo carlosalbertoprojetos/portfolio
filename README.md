@@ -4,7 +4,7 @@ Este repositório apresenta um **portfólio acadêmico** desenvolvido durante o 
 
 Embora o conteúdo esteja um pouco **defasado** em relação às tecnologias e práticas atuais, ele ainda representa uma etapa importante da minha trajetória, oferecendo uma visão dos projetos e desafios enfrentados no início da minha carreira.
 
-## 💡 **Sobre o Portfólio**
+## **Sobre o Portfólio**
 
 Este portfólio foi projetado para:
 
@@ -18,7 +18,7 @@ O portfólio inclui exemplos de:
 - Utilização de **Bootstrap** e CSS para design responsivo.
 - Implementação de funcionalidades básicas e intermediárias em aplicações web.
 
-## 🛠️ **Tecnologias Utilizadas**
+## **Tecnologias Utilizadas**
 
 - **HTML5** e **CSS3**: Base para as páginas estáticas e responsivas.
 - **Bootstrap**: Framework CSS para design responsivo.
@@ -27,7 +27,7 @@ O portfólio inclui exemplos de:
 - **Django/Flask**: Frameworks de desenvolvimento web.
 - **SQLite**: Banco de dados leve para armazenamento de informações em estudos.
 
-## 🚀 **Como Utilizar**
+## **Como Utilizar**
 
 ### 1. Clone o repositório:
 
@@ -55,7 +55,7 @@ python app.py               # Flask
 
 Abra [http://127.0.0.1:8000/](http://127.0.0.1:8000/) ou a URL indicada pelo framework.
 
-## 🌟 **O Propósito do Portfólio**
+## **O Propósito do Portfólio**
 
 Este portfólio é uma **representação inicial** do meu trabalho e aprendizado. Embora hoje minha experiência tenha evoluído, ele reflete:
 
@@ -63,17 +63,17 @@ Este portfólio é uma **representação inicial** do meu trabalho e aprendizado
 - As tecnologias e práticas que eu explorava à época.
 - Meu comprometimento com a **aprendizagem contínua**.
 
-## 📚 **Próximos Passos**
+## **Próximos Passos**
 
 - Atualizar o portfólio com projetos mais recentes e práticas modernas.
 - Incorporar novas tecnologias como **React**, **Vue.js** e **Docker**.
 - Expandir com projetos que demonstram experiência em **DevOps** e **arquitetura de sistemas**.
 
-## 📄 **Licença**
+## **Licença**
 
 Este projeto está sob a [Licença MIT](LICENSE). Sinta-se à vontade para explorar e se inspirar no conteúdo para seus próprios estudos e projetos.
 
 ---
 
-💻 Desenvolvido por [Carlos Alberto Medeiros](https://www.linkedin.com/in/carlos-alberto-medeiros-29aa6258/)  
-🌟 Transformando aprendizado em projetos, um passo de cada vez!
+Desenvolvido por [Carlos Alberto Medeiros](https://www.linkedin.com/in/carlos-alberto-medeiros-29aa6258/)  
+Transformando aprendizado em projetos, um passo de cada vez!
