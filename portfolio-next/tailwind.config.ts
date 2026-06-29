@@ -7,11 +7,7 @@ const config: Config = {
     "./src/data/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      boxShadow: {
-        glow: "0 0 80px rgba(34, 211, 238, 0.18)",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
