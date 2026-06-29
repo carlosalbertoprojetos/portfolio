@@ -75,12 +75,12 @@
 
           <div class="hero-actions" aria-label="Ações principais">
             <a class="btn btn-primary" href="#projetos">Ver projetos</a>
-            <a class="btn btn-secondary" href="Carlos+Alberto+Medeiros.pdf" target="_blank" rel="noopener">Baixar currículo</a>
+            <a class="btn btn-secondary" href="https://drive.google.com/file/d/12CVVsLV75M3Z9BJP-PhS4dhoEMF6R_6N/view?usp=sharing" target="_blank" rel="noopener">Baixar currículo</a>
             <a class="btn btn-ghost" href="https://www.linkedin.com/in/carlos-alberto-medeiros-29aa6258/" target="_blank" rel="noopener">LinkedIn</a>
           </div>
 
           <div class="hero-proof" aria-label="Resumo de competências">
-            <span>+7 anos</span>
+            <span id="exp-texto"></span>
             <span>Python / Django / FastAPI</span>
             <span>Cloud & DevOps</span>
             <span>AI-Augmented Engineering</span>
@@ -102,7 +102,7 @@
 
     <section class="section strip" aria-label="Principais diferenciais">
       <div class="container metrics-grid reveal">
-        <article><strong>+7</strong><span>anos em desenvolvimento web e automação</span></article>
+        <article><strong id="exp-numero"></strong><span>anos em desenvolvimento web e automação</span></article>
         <article><strong>2019+</strong><span>experiência contínua em sistemas reais</span></article>
         <article><strong>APIs</strong><span>REST, integrações externas e arquitetura modular</span></article>
         <article><strong>IA</strong><span>PRDs, arquitetura, código, testes e documentação</span></article>
@@ -129,22 +129,95 @@
           <p class="eyebrow">Experiência</p>
           <h2 id="experiencia-title">Experiência profissional orientada a manutenção, evolução e entrega.</h2>
         </div>
-
+        
         <article class="experience-card reveal">
           <div class="experience-date">2019 — Presente</div>
+
           <div class="experience-body">
+
             <h3>INTIP – Inteligência em Internet</h3>
-            <p class="role">Desenvolvedor Full Stack</p>
-            <p>Atuação no desenvolvimento, manutenção e evolução de sistemas web e automações, com participação em integrações, APIs, scripts operacionais, testes e melhoria contínua de aplicações existentes.</p>
+
+            <p class="role">
+              Senior Full Stack Software Engineer • Backend • DevOps • Cloud • Automação
+            </p>
+
+            <p>
+              Atuação no desenvolvimento, evolução e sustentação de sistemas corporativos,
+              participando de todo o ciclo de vida do software, desde a análise de requisitos
+              até a implantação, monitoramento e melhoria contínua em ambientes de produção.
+              Além do desenvolvimento de aplicações web e APIs, sou responsável por atividades
+              relacionadas à arquitetura de software, DevOps, integração contínua, deploy,
+              manutenção de servidores, otimização de performance, automação de processos e
+              suporte técnico às aplicações em produção.
+            </p>
+
             <ul class="check-list">
-              <li>Construção e evolução de APIs REST com Python.</li>
-              <li>Integração com serviços externos e automação de processos.</li>
-              <li>Otimização de consultas, performance e fluxos operacionais.</li>
-              <li>Automação de testes e validação de fluxos com Selenium e Robot Framework.</li>
+
+              <li>Desenvolvimento e evolução de aplicações web corporativas utilizando Python, Django, FastAPI e Flask.</li>
+
+              <li>Projeto, implementação e manutenção de APIs REST para integração entre sistemas internos e serviços externos.
+              </li>
+
+              <li>Modelagem de banco de dados, otimização de consultas SQL, análise de performance e utilização de Redis para
+                cache.</li>
+
+              <li>Planejamento técnico, refatoração de código e evolução da arquitetura de sistemas legados.</li>
+
+              <li>Responsável pelo processo de publicação de novas versões, deploy e configuração de ambientes de
+                desenvolvimento, homologação e produção.</li>
+
+              <li>Configuração e manutenção de pipelines de Integração Contínua e Entrega Contínua (CI/CD) utilizando Azure
+                DevOps.</li>
+
+              <li>Gerenciamento de código-fonte com Git e Bitbucket, incluindo revisão de código e controle de versionamento.
+              </li>
+
+              <li>Monitoramento de aplicações, análise de logs, investigação e resolução de incidentes em produção.</li>
+
+              <li>Administração e manutenção de servidores Linux utilizados pelas aplicações corporativas.</li>
+
+              <li>Desenvolvimento de automações utilizando Python, Selenium e Robot Framework para reduzir atividades
+                repetitivas e aumentar a produtividade.</li>
+
+              <li>Integração de aplicações com bancos de dados PostgreSQL, MySQL e Redis.</li>
+
+              <li>Implementação de melhorias contínuas voltadas à escalabilidade, estabilidade, segurança e qualidade das
+                aplicações.</li>
+
+              <li>Utilização de Inteligência Artificial para acelerar atividades de engenharia de software, incluindo
+                documentação técnica, planejamento arquitetural, geração assistida de código, refatoração e apoio ao
+                desenvolvimento.</li>
+
             </ul>
-            <div class="tag-list"><span>Python</span><span>Django</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span><span>Selenium</span><span>Robot Framework</span></div>
+
+            <div class="tag-list">
+              <span>Python</span>
+              <span>Django</span>
+              <span>FastAPI</span>
+              <span>Flask</span>
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+              <span>Redis</span>
+              <span>Docker</span>
+              <span>Azure DevOps</span>
+              <span>CI/CD</span>
+              <span>Git</span>
+              <span>Bitbucket</span>
+              <span>SonarCloud</span>
+              <span>Selenium</span>
+              <span>Robot Framework</span>
+              <span>Linux</span>
+              <span>AWS</span>
+              <span>Automação</span>
+              <span>DevOps</span>
+              <span>APIs REST</span>
+              <span>Cloud</span>
+              <span>IA Aplicada</span>
+            </div>
+
           </div>
         </article>
+
       </div>
     </section>
 
@@ -156,8 +229,8 @@
           <p>Os projetos abaixo devem evoluir para páginas próprias de estudo de caso, com problema, arquitetura, decisões, resultados e links técnicos.</p>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card project-featured reveal">
+        <div class="project-grid project-featured">
+          <article class="project-card reveal">
             <div class="project-meta"><span>SaaS financeiro</span><span>IA aplicada</span></div>
             <h3>Financeiro IA Admin</h3>
             <p>Plataforma SaaS para gestão financeira, cobrança inteligente, recuperação de recebíveis, previsibilidade de caixa e automação operacional.</p>
@@ -230,7 +303,7 @@
       <div class="container split-grid">
         <div class="section-intro reveal">
           <p class="eyebrow">AI-Augmented Engineering</p>
-          <h2 id="ia-title">IA como ferramenta de engenharia, não como buzzword.</h2>
+          <h2 id="ia-title">IA como ferramenta de engenharia.</h2>
         </div>
         <div class="content-stack reveal">
           <p>Uso IA para acelerar etapas críticas do ciclo de desenvolvimento, mantendo revisão humana, raciocínio técnico e responsabilidade arquitetural.</p>
@@ -277,5 +350,29 @@
   </footer>
 
   <script src="assets/js/main.js" defer></script>
+  <script>
+  // ===============================
+  // Contador automático de experiência
+  // ===============================
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const ANO_INICIO = 2019;
+    const anoAtual = new Date().getFullYear();
+    const anosExperiencia = anoAtual - ANO_INICIO;
+
+    // Span: +7 anos
+    const expTexto = document.getElementById("exp-texto");
+    if (expTexto) {
+      expTexto.textContent = `+${anosExperiencia} anos`;
+    }
+
+    // Strong: +7
+    const expNumero = document.getElementById("exp-numero");
+    if (expNumero) {
+      expNumero.textContent = `+${anosExperiencia}`;
+    }
+  });
+  </script>
+
 </body>
 </html>
