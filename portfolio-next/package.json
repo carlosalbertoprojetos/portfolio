@@ -8,7 +8,7 @@
     "build:github": "cross-env GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/portfolio next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "cross-env GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/portfolio next build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "cross-env GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/portfolio next build && touch out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@types/node": "^22.10.0",
