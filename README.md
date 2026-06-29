@@ -1,23 +1,28 @@
 # Carlos Alberto Medeiros — Portfolio
 
-Professional portfolio of Carlos Alberto Medeiros, Senior Full Stack Developer focused on Python, Django, FastAPI, REST APIs, automation, cloud, DevOps and AI-augmented software engineering.
+Portfólio profissional de Carlos Alberto Medeiros, Senior Full Stack Developer com foco em Python, Django, FastAPI, APIs REST, automação, cloud, DevOps e AI-Augmented Engineering.
 
-## Focus
+## Objetivo
 
-- Backend development with Python
-- REST API architecture
-- Web systems with Django and FastAPI
-- Process automation
-- Testing automation
-- Cloud and DevOps
-- AI-assisted software engineering
+Apresentar experiência técnica, projetos relevantes e diferenciais profissionais de forma clara, moderna, acessível e orientada à contratação.
 
-## Live Portfolio
+## Stack atual
 
-https://carlosalbertoprojetos.github.io/portfolio/
+- HTML semântico
+- CSS moderno com design responsivo
+- JavaScript leve
+- SEO básico
+- Schema.org Person
+- Acessibilidade com skip link, foco visível e navegação por teclado
 
-## Contact
+## Publicação
 
-- LinkedIn: https://www.linkedin.com/in/carlos-alberto-medeiros-29aa6258/
-- GitHub: https://github.com/carlosalbertoprojetos
-- Email: carlosmedeiroscode@gmail.com
+Este projeto pode ser publicado diretamente via GitHub Pages.
+
+## Próximas evoluções recomendadas
+
+- Criar páginas individuais de estudo de caso para cada projeto
+- Adicionar screenshots otimizadas em WebP/AVIF
+- Adicionar Open Graph image
+- Migrar para Next.js + TypeScript + Tailwind quando houver necessidade de componentização avançada
+- Medir cliques em currículo, LinkedIn, GitHub e WhatsApp
